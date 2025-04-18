@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 100%;
+}
+
+.num1 {
+  color: white;
+  margin-left: 80%;
+  padding-top: 16px;
+}
+
+.num2 {
+  width: 100%;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 240px;
+}
+
+.num3 {
+  width: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 30px;
+}
+
+.full1 {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 500px;
+  padding-top: 20px;
+}
+
+.Half1 {
+  width: 70%;
+  height: 19px;
+  background-color: rgb(116, 217, 212);
+}
+
+.Half2 {
+  width: 30%;
+  height: 19px;
+  background-color: white;
+}
+
+.percentfull {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 500px;
+  padding-top: 10px;
+}
+
+.percent1 {
+  /* width: 70%; */
+  color: white;
+}
+
+.percent2 {
+  /* width: 30%; */
+  color: white;
+  text-align: left;
+}
+
+.select {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 40px;
+}
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: aquamarine;
+  border: 1px solid aquamarine;
+}
+
+.Pics {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 550px;
+  padding-top: 30px;
+}
+.pic{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  overflow: hidden;
+  
+}
+img{
+  width: 35px;
+  height: 35px;
+}
+
+.down {
+  color: rgb(101, 100, 100);
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.linedown{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 190px;
+
+}
+hr{
+  width: 80%;
+  color: rgb(163, 160, 160);
+}
